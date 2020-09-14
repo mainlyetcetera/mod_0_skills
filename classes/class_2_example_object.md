@@ -1,6 +1,6 @@
-Example of an instance of Wine: Penfolds Max's Cabernet Sauvignon
+##Example of an instance of Wine: Penfolds Max's Cabernet Sauvignon
 
-Attributes:
+*Attributes:*
 color: 'red'
 category: 'cabernet sauvignon'
 priceByGlass: 7.5
@@ -9,7 +9,7 @@ taste: ['fruit intensity', 'ripe tannins']
 bottlesInStock: 3
 bottlesNeedInInventory: 15
 
-Methods:
+*Methods:*
 stock > bottlesInStock: 15
 serveByBottle: bottlesInStock: 14
 describeTaste: ['fruit intensity', 'ripe tannins']
