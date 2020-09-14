@@ -1,0 +1,9 @@
+var food = 'peach';
+var isDelicious = true;
+food = 'pizza';
+var num2 = 6;
+var num7 = 42;
+var quotient = num7 / num2;
+var songs = ['Hallelujah', "God's Plan", 'JustAdIce'];
+songs.shift()
+console.log(food.length);
