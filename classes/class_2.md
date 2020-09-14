@@ -1,6 +1,6 @@
-Example of a class in a restaurant: Wine
+##Example of a class in a restaurant: Wine
 
-Attributes:
+*Attributes:*
 color (string):
 category (string):
 priceByGlass (number):
@@ -9,7 +9,7 @@ taste (array of strings):
 bottlesInStock (number):
 bottlesNeedInInventory (number):
 
-Methods:
+*Methods:*
 stock: reset bottlesInStock number to equal bottlesNeedInInventory number
 serveByBottle: decrement bottlesInStock by 1
 describeTaste: print taste array of strings
