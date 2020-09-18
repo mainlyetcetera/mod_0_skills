@@ -1,4 +1,4 @@
-## Class that exists in a restaurant: employee
+## Class that exists in a restaurant: Employee
 
 **Attributes**
   * isFrontOfHouse _(boolean)_
