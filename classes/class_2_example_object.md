@@ -12,33 +12,33 @@
   * bottlesNeedInInventory: 15
 
 **Methods:**
-  * changeNeed:
+  * `changeNeed(17)`:
 ```javascript
 bottlesNeedInInventory = 17;
 ```
-  * stock:
+  * `stock()`:
 ```javascript
 bottlesInStock = 17;
 ```
-  * serveByBottle:
+  * `serveByBottle()`:
 ```javascript
 bottlesInStock = 16;
 ```
-  * describeTaste:
+  * `describeTaste()`:
 ```javascript
 console.log(`The exquisite taste of ${wineName} is full of ${taste[0]} and ${taste[1]}!`);
 ```
-  * givePrice:
+  * `givePrice()`:
 ```javascript
 console.log(`The price of ${wineName} is ${priceByGlass} by the glass and ${priceByBottle} by the bottle.`);
 ```
-  * changeColor:
+  * `changeColor()`:
 ```javascript
 isRed = false;
 isWhite = true;
 ```
 
-  * category:
+  * `category()`:
 ```javascript
 console.log(`The type of wine is ${category}.`);
 ```
