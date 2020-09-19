@@ -12,6 +12,7 @@
   * bottlesNeedInInventory _(number)_
 
 **Methods:**
+  * changeNeed: reset bottlesNeedInInventory to new number
   * stock: reset bottlesInStock number to equal bottlesNeedInInventory number
   * serveByBottle: decrement bottlesInStock by 1
   * describeTaste: print exclamation describing the taste
