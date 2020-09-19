@@ -1,4 +1,4 @@
-## Example of an instance of Wine: Penfolds Max's Cabernet Sauvignon
+## Example of an Instance of Wine: Penfolds Max's Cabernet Sauvignon
 
 **Attributes:**
   * wineName: 'Penfolds Max's Cabernet Sauvignon'

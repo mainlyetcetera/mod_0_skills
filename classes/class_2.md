@@ -1,4 +1,4 @@
-## Example of a class in a restaurant: Wine
+## Example of a Class in a Restaurant: Wine
 
 **Attributes:**
   * wineName _(string)_
