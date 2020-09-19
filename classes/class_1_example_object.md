@@ -8,24 +8,24 @@
   * lengthEmployedInMonths: 5
 
 *Methods:*
-  * `movesBackOfHouse()`:
+  * `movesBackOfHouse():`
 ```javascript
-isFrontOfHouse: false
-isBackOfHouse: true
+isFrontOfHouse: false;
+isBackOfHouse: true;
 ```
 
-  * `movesFrontOfHouse()`:
+  * `movesFrontOfHouse():`
 ```javascript
-isFrontOfHouse: true
-isBackOfHouse: false
+isFrontOfHouse: true;
+isBackOfHouse: false;
 ```
 
-  * `increasePay()`:
+  * `increasePay():`
 ```javascript
 console.log(`Congratulations! You got a pay raise! Your pay now is ${hourlyRate + .5}!`); // 10.52
 ```
 
-  * `describeOutfit()`:
+  * `describeOutfit():`
 ```javascript
 console.log(`As a reminder, please arrive at work properly dressed in:
 ${outfit[0]}
@@ -34,7 +34,7 @@ ${outfit[2]}
 
 Thank you!`);
 ```
-  * `workOneMonth()`:
+  * `workOneMonth():`
 ```javascript
 lengthEmployedInMonths += 1;
 console.log(`Woah! You've been here ${lengthEmployedInMonths}! Great job!`);
