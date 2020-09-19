@@ -1,14 +1,14 @@
-##Class that exists in a restaurant: employee
+## Example of a Class in a Restaurant: Employee
 
-*Attributes:*
-isFrontOfHouse (boolean)
-isBackOfHouse (boolean)
-hourlyRate (number)
-outfit (array of strings)
-lengthEmployedInMonths (number)
+**Attributes:**
+  * isFrontOfHouse _(boolean)_
+  * isBackOfHouse _(boolean)_
+  * hourlyRate _(number)_
+  * outfit _(array of strings)_
+  * lengthEmployedInMonths _(number)_
 
-*Methods:*
-movesBackOfHouse: changes isBackOfHouse to true and isFrontOfHouse to false
-increasePay: increase hourlyRate by .5
-describeOutfit: print outfit array of strings
-monthPass: increase lengthEmployedInMonths by 1
+**Methods:**
+  * movesBackOfHouse: changes isBackOfHouse to true and isFrontOfHouse to false
+  * increasePay: increase hourlyRate by .5
+  * describeOutfit: formats interpolated string describing the outfit
+  * workOneMonth: increase lengthEmployedInMonths by 1

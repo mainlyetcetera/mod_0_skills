@@ -1,18 +1,21 @@
-##Example of a class in a restaurant: Wine
+## Example of a Class in a Restaurant: Wine
 
-*Attributes:*
-color (string):
-category (string):
-priceByGlass (number):
-priceByBottle (number):
-taste (array of strings):
-bottlesInStock (number):
-bottlesNeedInInventory (number):
+**Attributes:**
+  * wineName _(string)_
+  * isRed _(boolean)_
+  * isWhite _(boolean)_
+  * category _(string)_
+  * priceByGlass _(number)_
+  * priceByBottle _(number)_
+  * taste _(array of strings)_
+  * bottlesInStock _(number)_
+  * bottlesNeedInInventory _(number)_
 
-*Methods:*
-stock: reset bottlesInStock number to equal bottlesNeedInInventory number
-serveByBottle: decrement bottlesInStock by 1
-describeTaste: print taste array of strings
-givePrice: print priceByGlass and priceByBottle in object literal
-describeColor: print color string
-describeCategory: print category string
+**Methods:**
+  * changeNeed: reset bottlesNeedInInventory to new number
+  * stock: reset bottlesInStock number to equal bottlesNeedInInventory number
+  * serveByBottle: decrement bottlesInStock by 1
+  * describeTaste: print exclamation describing the taste
+  * givePrice: describe the price by glass and bottle
+  * changeColor: swap which value is true, isRed or isWhite
+  * describeCategory: print formatted category string
